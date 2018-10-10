@@ -1,0 +1,36 @@
+.en-ivu-form-item{
+  margin-bottom: 0 !important;
+  .ivu-input{
+    border-radius: 0;
+    border: none;
+  }
+  .ivu-form-item-label{
+    border-top: 1px solid #dcdee2;
+  }
+  .ivu-form-item-content{
+    border: 1px solid #dcdee2;
+    border-bottom: none;
+  }
+  .ivu-checkbox-group{
+    padding: 0 7px;
+  }
+  .ivu-form-item-content{
+    &:hover, &:active{
+      border: 1px solid #2d8cf0;
+    }
+  }
+}
+.ivu-row{
+  .ivu-col{
+    &:first-child{
+      .en-ivu-form-item{
+        border-left: 1px solid #dcdee2;
+      }
+    }
+  }
+  &:nth-last-of-type(1){
+    .en-ivu-form-item{
+      border-bottom: 1px solid #dcdee2;
+    }
+  }
+}
