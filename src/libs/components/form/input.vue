@@ -11,7 +11,7 @@ export default {
   props: {
     label: {
       type: String,
-      default: '',
+      default: ''
     },
     type: {
       type: String,
@@ -31,4 +31,3 @@ export default {
   }
 }
 </script>
-

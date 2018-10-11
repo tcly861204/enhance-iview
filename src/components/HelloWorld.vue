@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import { Row, Col,Checkbox } from 'iview'
+import { Row, Col, Checkbox } from 'iview'
 export default {
   name: 'HelloWorld',
   props: {
@@ -43,11 +43,11 @@ export default {
     Col,
     Checkbox
   },
-  data() {
+  data () {
     return {
       formValidate: {
         name: ''
-      },
+      }
     }
   }
 }
